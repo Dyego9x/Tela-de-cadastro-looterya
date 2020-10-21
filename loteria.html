@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro Looterya</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="css\loteria.css" rel="stylesheet" >
+  </head>
+  <body>
+    <div class="main-block">
+    <form action="/" style=" margin:40px 110px 40px 110px ; border-radius: 20px;     border-style: double;" >
+      <h1>Cadastro Looterya</h1>
+      <fieldset>
+        <legend>
+          <h3>Detalhes da conta</h3>
+        </legend>
+        <div  class="account-details">
+          <div><label>Email*</label><input type="email" maxlength="50" name="name" required></div>
+          <div><label>Senha*</label><input type="password" maxlength="50" name="name" required></div>
+          <div><label>Digite novamente o email*</label><input type="email" maxlength="50" name="name" required></div>
+          <div><label>Digite novamente a senha*</label><input type="password" name="name" required></div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <h3>Informações Pessoais</h3>
+        </legend>
+        <div  class="personal-details">
+          <div>
+            <div><label>Nome*</label><input type="text" maxlength="25" name="name" required></div>
+            <div><label>Sobrenome*</label><input type="text" maxlength="50" name="name"  required></div>
+            <div><label>URL de troca da steam*</label><input type="text" name="name" required></div>
+          </div>
+          <div>
+            <div>
+              <label>Gênero*</label>
+              <div class="genero">             
+              <select required>
+                <option value=""></option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="indefinido">Indefinido</option>
+              </select>
+              </div>
+            </div>
+            <div class="aniversario">
+              <label>Data de nascimento*</label>
+              <div class="bdate-block">
+                  <input type="date" name="nasc" placeholder="nascimento " required="required">
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <h3>Termos e licença</h3>
+        </legend>
+        <div  class="terms-mailing">
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox"><span>Eu aceito <a href="https://www.instagram.com/looterya/" target="_blank">Instagram</a></span>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox"><span>Argumento dois</span>
+          </div>
+      </fieldset>
+      <button type="submit" href="/">Enviar</button>
+    </form>
+    </div> 
+  </body>
+</html>
